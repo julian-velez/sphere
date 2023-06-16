@@ -1,0 +1,56 @@
+.panels {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    transition: flex 0.7s ease-in;
+    cursor: pointer;
+  }
+  
+  .panel p {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .panel1 {
+    background-image: url('https://image.lexica.art/full_jpg/c5ccee39-f350-4caa-9683-c614c44fd986');
+    background-size: cover; /* Añade esta línea */
+  }
+  
+  .panel2 {
+    background-image: url('https://image.lexica.art/full_jpg/f605b208-9b77-41e8-895c-7174944bff4e');
+    background-size: cover; /* Añade esta línea */
+  }
+  
+  .panel3 {
+    background-image: url('https://image.lexica.art/full_jpg/7fb45be6-777a-4f69-aa2c-d54d612f32cf');
+    background-size: cover; /* Añade esta línea */
+  }
+  
+  .panel4 {
+    background-image: url('https://image.lexica.art/full_jpg/cbe20b21-1447-4fa5-a502-58245bc30ed7');
+    background-size: cover; /* Añade esta línea */
+  }
+  
+  .panel5 {
+    background-image: url('https://image.lexica.art/full_jpg/df62beb2-dc3b-44ef-b89b-88d473863a6b');
+    background-size: cover; /* Añade esta línea */
+  }
+  
+  .open {
+    flex: 5;
+  }
+  
+  .open p {
+    font-size: 50px;
+  }
+  
+  
